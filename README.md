@@ -13,6 +13,10 @@ Explain how to import and use the ChatGPT library to generate responses.
 Step :
 
 1. Create Spring Boot Project
-2. Integrate the required dependecy from the officail documentation for Java
+2. Integrate the required dependency from the official documentation for Java
 3. Write Controller class to expose the Rest End Points
-4. Experience the different model provided by Open AI.
+4. Experience the different models provided by Open AI.
+
+Watch Now:   https://youtu.be/cF8OQauviXQ
+
+
