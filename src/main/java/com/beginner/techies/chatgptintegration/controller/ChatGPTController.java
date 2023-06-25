@@ -19,7 +19,7 @@ public class ChatGPTController {
 
 		// /v1/completion -> text-davinci-003, text-davinci-002, text-curie-001,
 		// text-babbage-001, text-ada-001
-		OpenAiService service = new OpenAiService("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");
+		OpenAiService service = new OpenAiService("ADD_YOUR_SECRET_KEY_HERE");
 		CompletionRequest completionRequest = CompletionRequest.builder().prompt(prompt).model("text-davinci-003")
 				.echo(true).build();
 		return service.createCompletion(completionRequest).getChoices().get(0).getText();
